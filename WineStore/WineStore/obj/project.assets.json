@@ -643,39 +643,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.Owin/4.2.2": {
-        "type": "package",
-        "dependencies": {
-          "Owin": "1.0.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Owin.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.Owin.Host.SystemWeb/4.2.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Owin": "4.2.2",
-          "Owin": "1.0.0"
-        },
-        "compile": {
-          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net45/Microsoft.Owin.Host.SystemWeb.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.SqlServer.Server/1.0.0": {
         "type": "package",
         "compile": {
@@ -744,15 +711,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
-        }
-      },
-      "Owin/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Owin.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Owin.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -2297,34 +2255,6 @@
         "runtime.json"
       ]
     },
-    "Microsoft.Owin/4.2.2": {
-      "sha512": "jt410l/8dvCIguRdU7dupYdm4kGLepVdD8EOTKU4nYZcLRrn6kQYqI6pbJOTJp7Vlm/T2WUF5bzyKK2z29xtjg==",
-      "type": "package",
-      "path": "microsoft.owin/4.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/net45/Microsoft.Owin.dll",
-        "lib/net45/Microsoft.Owin.xml",
-        "microsoft.owin.4.2.2.nupkg.sha512",
-        "microsoft.owin.nuspec"
-      ]
-    },
-    "Microsoft.Owin.Host.SystemWeb/4.2.2": {
-      "sha512": "MYdqpNXC5xX7pVAnhGDfZvU7ybylYENqnV17XYGGkInk3Hco2Fx8t4nVBXBoAw/3ox6cNTbazq+EiS4Pi9lGQA==",
-      "type": "package",
-      "path": "microsoft.owin.host.systemweb/4.2.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "lib/net45/Microsoft.Owin.Host.SystemWeb.dll",
-        "lib/net45/Microsoft.Owin.Host.SystemWeb.xml",
-        "microsoft.owin.host.systemweb.4.2.2.nupkg.sha512",
-        "microsoft.owin.host.systemweb.nuspec"
-      ]
-    },
     "Microsoft.SqlServer.Server/1.0.0": {
       "sha512": "N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
       "type": "package",
@@ -2426,18 +2356,6 @@
         "lib/netstandard2.0/Mono.TextTemplating.dll",
         "mono.texttemplating.2.2.1.nupkg.sha512",
         "mono.texttemplating.nuspec"
-      ]
-    },
-    "Owin/1.0.0": {
-      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
-      "type": "package",
-      "path": "owin/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/Owin.dll",
-        "owin.1.0.0.nupkg.sha512",
-        "owin.nuspec"
       ]
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.2": {
@@ -3907,8 +3825,7 @@
       "Microsoft.EntityFrameworkCore >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.2",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.2",
-      "Microsoft.Owin.Host.SystemWeb >= 4.2.2"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.2"
     ]
   },
   "packageFolders": {
@@ -3918,11 +3835,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\izasp\\source\\repos\\WineStore\\WineStore\\WineStore.csproj",
+      "projectUniqueName": "C:\\Users\\izasp\\WineStore\\WineStore\\WineStore\\WineStore.csproj",
       "projectName": "WineStore",
-      "projectPath": "C:\\Users\\izasp\\source\\repos\\WineStore\\WineStore\\WineStore.csproj",
+      "projectPath": "C:\\Users\\izasp\\WineStore\\WineStore\\WineStore\\WineStore.csproj",
       "packagesPath": "C:\\Users\\izasp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\izasp\\source\\repos\\WineStore\\WineStore\\obj\\",
+      "outputPath": "C:\\Users\\izasp\\WineStore\\WineStore\\WineStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3973,10 +3890,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.2, )"
-          },
-          "Microsoft.Owin.Host.SystemWeb": {
-            "target": "Package",
-            "version": "[4.2.2, )"
           }
         },
         "imports": [
@@ -4001,37 +3914,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Pakiet „Microsoft.Owin 4.2.2” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1” zamiast platformy docelowej projektu „net6.0”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
-      "libraryId": "Microsoft.Owin",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Pakiet „Microsoft.Owin.Host.SystemWeb 4.2.2” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1” zamiast platformy docelowej projektu „net6.0”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
-      "libraryId": "Microsoft.Owin.Host.SystemWeb",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Pakiet „Owin 1.0.0” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1” zamiast platformy docelowej projektu „net6.0”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
-      "libraryId": "Owin",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

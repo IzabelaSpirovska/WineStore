@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\izasp\\source\\repos\\WineStore\\WineStore\\WineStore.csproj": {}
+    "C:\\Users\\izasp\\WineStore\\WineStore\\WineStore\\WineStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\izasp\\source\\repos\\WineStore\\WineStore\\WineStore.csproj": {
+    "C:\\Users\\izasp\\WineStore\\WineStore\\WineStore\\WineStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\izasp\\source\\repos\\WineStore\\WineStore\\WineStore.csproj",
+        "projectUniqueName": "C:\\Users\\izasp\\WineStore\\WineStore\\WineStore\\WineStore.csproj",
         "projectName": "WineStore",
-        "projectPath": "C:\\Users\\izasp\\source\\repos\\WineStore\\WineStore\\WineStore.csproj",
+        "projectPath": "C:\\Users\\izasp\\WineStore\\WineStore\\WineStore\\WineStore.csproj",
         "packagesPath": "C:\\Users\\izasp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\izasp\\source\\repos\\WineStore\\WineStore\\obj\\",
+        "outputPath": "C:\\Users\\izasp\\WineStore\\WineStore\\WineStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,10 +62,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.2, )"
-            },
-            "Microsoft.Owin.Host.SystemWeb": {
-              "target": "Package",
-              "version": "[4.2.2, )"
             }
           },
           "imports": [
